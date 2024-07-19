@@ -16,6 +16,6 @@ public static class HiddenMenu
     [MenuItem("GameObject/Add Hidden Component %j")]
     static void AddHiddenComponent()
     {
-        Selection.activeObject.AddComponent<HiddenInHierarchy>();
+        Selection.activeGameObject.AddComponent<HiddenInHierarchy>();
     }
 }
